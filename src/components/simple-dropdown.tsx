@@ -24,7 +24,7 @@ interface Option {
   value: string;
 }
 
-interface BBFlexNormalDropdownProps {
+interface SimpleDropdownProps {
   options: Option[];
   selectedValue: string | string[];
   onValueChange: (value: string | string[]) => void;
@@ -69,7 +69,7 @@ interface BBFlexNormalDropdownProps {
   checkboxStyle?: StyleProp<ViewStyle>;
 }
 
-const BBFlexNormalDropdown: React.FC<BBFlexNormalDropdownProps> = ({
+const SimpleDropdown: React.FC<SimpleDropdownProps> = ({
   options,
   selectedValue,
   onValueChange,
@@ -358,4 +358,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { BBFlexNormalDropdown };
+export { SimpleDropdown };

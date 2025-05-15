@@ -7,7 +7,7 @@ import { getCurrentTime } from "../utils/time";
 import { IconSource } from "react-native-paper/lib/typescript/components/Icon";
 import { hp, wp } from "react-native-super-responsive";
 
-interface BBFlexSearchBarProps {
+interface CustomSearchBarProps {
   value: string;
   onChangeText: (text: string) => void;
   placeholderKey?: string;
@@ -22,7 +22,7 @@ interface BBFlexSearchBarProps {
   placeholderTextColor?: string;
 }
 
-const BBFlexSearchBar: React.FC<BBFlexSearchBarProps> = ({
+const CustomSearchBar: React.FC<CustomSearchBarProps> = ({
   value,
   onChangeText,
   placeholderKey,
@@ -88,4 +88,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { BBFlexSearchBar };
+export { CustomSearchBar };

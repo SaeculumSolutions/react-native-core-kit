@@ -7,7 +7,7 @@ import { getCurrentTime } from "../utils/time"; // For timezone support
 
 type InputMode = "flat" | "outlined";
 
-interface CustomTextInputProps {
+interface TextInputProps {
   value: string; // Controlled value
   onChangeText: (text: string) => void; // Callback for text change
   placeholderKey?: string; // Translation key for placeholder
@@ -24,7 +24,7 @@ interface CustomTextInputProps {
   timezone?: string; // Timezone for dynamic placeholder
 }
 
-const CustomTextInput: React.FC<CustomTextInputProps> = ({
+const TextInput: React.FC<TextInputProps> = ({
   value,
   onChangeText,
   placeholderKey,
@@ -85,4 +85,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { CustomTextInput };
+export { TextInput };

@@ -23,7 +23,7 @@ interface Option {
   value: string;
 }
 
-interface BBFlexDropdownProps {
+interface CustomDropdownProps {
   options: Option[];
   selectedValue: string | string[];
   onValueChange: (value: string | string[]) => void;
@@ -62,7 +62,7 @@ interface BBFlexDropdownProps {
   closeButtonTextStyle?: StyleProp<TextStyle>;
 }
 
-const BBFlexDropdown: React.FC<BBFlexDropdownProps> = ({
+const CustomDropdown: React.FC<CustomDropdownProps> = ({
   options,
   selectedValue,
   onValueChange,
@@ -358,4 +358,4 @@ const styles = StyleSheet.create({
   headerClose: { fontSize: scaleFont(16), fontWeight: "bold" },
 });
 
-export { BBFlexDropdown };
+export { CustomDropdown };
