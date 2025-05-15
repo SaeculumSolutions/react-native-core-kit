@@ -1,6 +1,6 @@
 {
-  "name": "rn-ss-components",
-  "version": "1.0.52",
+  "name": "react-native-core-kit",
+  "version": "1.0.0",
   "description": "Custom React Native components using React Native Paper.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saeculumBhaveshB/rn-ss-components.git"
+    "url": "git+https://github.com/SaeculumSolutions/react-native-core-kit.git"
   },
-  "author": "Bhavesh Saeculum",
+  "author": "Pratik Saeculum",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saeculumBhaveshB/rn-ss-components/issues"
+    "url": "https://github.com/SaeculumSolutions/react-native-core-kit/issues"
   },
-  "homepage": "https://github.com/saeculumBhaveshB/rn-ss-components#readme",
+  "homepage": "https://github.com/SaeculumSolutions/react-native-core-kit/blob/main/README",
   "peerDependencies": {
     "react": ">=17.0.0 || >=18.0.0",
     "react-native": ">=0.68.0"
